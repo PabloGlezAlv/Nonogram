@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Practica_1"
+include ':AndroidLauncher'
+include ':Engine'
+include ':PCEngine'
+include ':AndroidEngine'
+include ':PCLauncher'
+include ':Game'
